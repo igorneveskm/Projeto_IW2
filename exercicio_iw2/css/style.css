@@ -19,7 +19,7 @@ figure{
 
 
 .itens_menu a:link, .itens_menu a:visited{
-  color:	#000000;
+  color:	green;
 
   padding: 15px 30px;
   text-align: center;
@@ -34,7 +34,7 @@ figure{
 
  /* mouse over link */
 .itens_menu a:hover {
-  color: #5e4f0f;
+  color: #3134d8;
   padding: 15px 30px;
   text-align: center;
   text-decoration: none;
@@ -47,7 +47,7 @@ figure{
 
  /* selected link */
 .itens_menu a:active {
-  color: #5e4f0f;
+  color: rgb(23, 218, 23);
   padding: 15px 30px;
   text-align: center;
   text-decoration: none;
@@ -61,6 +61,7 @@ figure{
  h1{
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+  color: green;
  }
 
  h3{
@@ -71,13 +72,16 @@ figure{
  p{
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+  margin: 5%;
+  padding: 2%;
+color: green;
  }
 
  html{
   scroll-behavior: smooth;
 }
 body{
-  background-color:#e7d957;
+  background-color:#000000;
 }
 
 header{
@@ -86,6 +90,10 @@ header{
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.borda_form{
+  padding-left: 40%;
 }
 
   
